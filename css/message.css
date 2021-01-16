@@ -119,16 +119,13 @@ a {
 }
 
 @media (min-width: 400px) {
-  /* .showcase .video-container video {
+  .showcase .video-container video {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  } */
-  .message-show img {
-    height: 600px;
   }
-  /* .showcase .video-container video {
-    height: 100%;
-  } */
+  .message-show img {
+    height: 470px;
+  }
 
   .content-container p {
     font-size: 2rem;
@@ -141,6 +138,12 @@ a {
     margin: 0 70px;
     font-size: 2rem;
     animation: content-load 1000ms ease-in;
+  }
+}
+
+@media (min-width: 768px) {
+  .message-show img {
+    height: 600px;
   }
 }
 
