@@ -84,6 +84,9 @@ a {
   text-align: justify;
   animation: content-load 1000ms ease-in;
 }
+.message-show img {
+  height: 450px;
+}
 
 .btn {
   border: 2px white solid;
@@ -116,10 +119,16 @@ a {
 }
 
 @media (min-width: 400px) {
-  .showcase .video-container video {
+  /* .showcase .video-container video {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  } */
+  .message-show img {
+    height: 600px;
   }
+  /* .showcase .video-container video {
+    height: 100%;
+  } */
 
   .content-container p {
     font-size: 2rem;
